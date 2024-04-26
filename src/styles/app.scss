@@ -1,0 +1,24 @@
+@import './theme/';
+@import './utils/';
+@import './pages/';
+@import './components/';
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#main {
+  flex: 1;
+  overflow: auto;
+}
+
+body {
+  overflow: hidden;
+}
+
+.home-page {
+  background-color: var(--bs-body-color);
+  color: var(--text);
+}
